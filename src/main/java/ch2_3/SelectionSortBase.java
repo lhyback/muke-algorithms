@@ -1,4 +1,4 @@
-package ch02;
+package ch2_3;
 
 import org.apache.commons.lang3.ArrayUtils;
 import tool.TestHelper;
