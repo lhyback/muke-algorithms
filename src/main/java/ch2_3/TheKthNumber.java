@@ -1,7 +1,7 @@
 package ch2_3;
 
 import org.apache.commons.lang3.ArrayUtils;
-import tool.TestHelper;
+import tool.SortTestHelper;
 
 /**
  * Created by lhy on 2018/10/18.
@@ -65,7 +65,7 @@ public class TheKthNumber {
 	public static void main(String[] args) {
 		//int[] arr = new int[]{4, 3, 2, 1, 4, 6, 9};
 		int n = 1000000;
-		int[] arr = TestHelper.generateRandomIntArray(n, 0, n);
+		int[] arr = SortTestHelper.generateRandomIntArray(n, 0, n);
 		int k = 13;
 		long start = System.currentTimeMillis();
 		System.out.println("the " + k + "th(large) number is " + findTheKthNumberBrute(arr, k));

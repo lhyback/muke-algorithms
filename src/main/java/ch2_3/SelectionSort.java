@@ -1,7 +1,7 @@
 package ch2_3;
 
 import org.apache.commons.lang3.ArrayUtils;
-import tool.TestHelper;
+import tool.SortTestHelper;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -54,7 +54,7 @@ public class SelectionSort {
 
 	public static void main(String[] args) {
 		//测试int（转为Integer才能用。也可重载一个sort(int [])方法）
-		int[] arrInt = TestHelper.generateRandomIntArray(10, 4, 10);
+		int[] arrInt = SortTestHelper.generateRandomIntArray(10, 4, 10);
 		Integer[] arrInteger = new Integer[arrInt.length];
 		for (int i = 0; i < arrInteger.length; i++) {
 			arrInteger[i] = arrInt[i];

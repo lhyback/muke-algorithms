@@ -1,7 +1,7 @@
 package ch2_3;
 
 import org.apache.commons.lang3.ArrayUtils;
-import tool.TestHelper;
+import tool.SortTestHelper;
 
 import java.util.Arrays;
 
@@ -23,7 +23,7 @@ public class InsertionSortBase {
 	}
 
 	public static void main(String[] args) {
-		int[] num = TestHelper.generateRandomIntArray(10, 4, 10);
+		int[] num = SortTestHelper.generateRandomIntArray(10, 4, 10);
 		System.out.println(Arrays.toString(num));
 		System.out.println(Arrays.toString(sort(num)));
 	}

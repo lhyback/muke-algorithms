@@ -1,6 +1,6 @@
 package ch2_3;
 
-import tool.TestHelper;
+import tool.SortTestHelper;
 
 import java.util.Arrays;
 
@@ -61,7 +61,7 @@ public class MergeSortBase {
 
 
 	public static void main(String[] args) {
-		int[] arr = TestHelper.generateRandomIntArray(15, 4,  20);
+		int[] arr = SortTestHelper.generateRandomIntArray(15, 4,  20);
 		System.out.println(Arrays.toString(arr));
 		System.out.println(Arrays.toString(sort(arr)));
 

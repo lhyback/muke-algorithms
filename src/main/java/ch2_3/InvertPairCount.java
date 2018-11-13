@@ -1,6 +1,6 @@
 package ch2_3;
 
-import tool.TestHelper;
+import tool.SortTestHelper;
 
 import java.util.Arrays;
 
@@ -66,7 +66,7 @@ public class InvertPairCount {
 	}
 
 	public static void main(String[] args) {
-		int[] arr = TestHelper.generateRandomIntArray(10000, 0, 10);
+		int[] arr = SortTestHelper.generateRandomIntArray(10000, 0, 10);
 		//int[] arr = new int[]{5, 2, 4, 3};
 		int[] arr_copy = Arrays.copyOf(arr, arr.length);
 		long start = System.currentTimeMillis();

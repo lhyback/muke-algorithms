@@ -1,7 +1,7 @@
 package ch2_3;
 
 import org.apache.commons.lang3.ArrayUtils;
-import tool.TestHelper;
+import tool.SortTestHelper;
 
 import java.util.Arrays;
 
@@ -27,7 +27,7 @@ public class SelectionSortBase {
 
 	public static void main(String[] args) {
 		//int[] nums = new int[]{10, 9, 8, 7, 7, 5, 6, 4, 3, 3, 2, 1};
-		int[] nums = TestHelper.generateRandomIntArray(20, 4, 10);
+		int[] nums = SortTestHelper.generateRandomIntArray(20, 4, 10);
 		System.out.println(Arrays.toString(nums));
 		System.out.println(Arrays.toString(SelectionSortBase.sort(nums)));
 	}

@@ -1,7 +1,7 @@
 package ch2_3;
 
 import org.apache.commons.lang3.ArrayUtils;
-import tool.TestHelper;
+import tool.SortTestHelper;
 
 import java.util.Arrays;
 
@@ -27,7 +27,7 @@ public class BubbleSort {
 	}
 
 	public static void main(String[] args) {
-		int[] arr = TestHelper.generateRandomIntArray(10, 4, 10);
+		int[] arr = SortTestHelper.generateRandomIntArray(10, 4, 10);
 		System.out.println(Arrays.toString(arr));
 		System.out.println(Arrays.toString(sort(arr)));
 	}
