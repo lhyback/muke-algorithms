@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../farmOffer/farmOffer.iml" filepath="$PROJECT_DIR$/../farmOffer/farmOffer.iml" />
       <module fileurl="file://$PROJECT_DIR$/muke-algorithm.iml" filepath="$PROJECT_DIR$/muke-algorithm.iml" />
     </modules>
   </component>
