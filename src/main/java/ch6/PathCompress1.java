@@ -19,6 +19,7 @@ public class PathCompress1 {
 		}
 	}
 
+	//两步一跳，路径压缩
 	public int find(int p) {
 		while (parent[p] != p) {
 			parent[p] = parent[parent[p]];

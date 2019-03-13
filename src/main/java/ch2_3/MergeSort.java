@@ -36,7 +36,7 @@ public class MergeSort {
 	 * @param end
 	 */
 	public static void merge(int[] arr, int begin, int mid, int end) {
-		int[] aux = new int[end - begin + 1];  //辅助数组
+		int[] aux = new int[end - begin + 1];  //辅助数组暂存合并结果
 		int i = begin;
 		int j = mid + 1;
 		for (int k = 0; k < aux.length; k++) {

@@ -14,7 +14,7 @@ public class UnionFindTestHelper {
 		Method isConnectedMethod = clazz.getMethod("isConnected", int.class, int.class);
 		//void union(int p, int q)
 		Method unionMethod = clazz.getMethod("union", int.class, int.class);
-		//Object test = clazz.newInstance(size);
+		//Object learn = clazz.newInstance(size);
 		Constructor constructor = clazz.getConstructor(int.class);
 		Object test = constructor.newInstance(size);
 
