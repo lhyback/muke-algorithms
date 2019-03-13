@@ -1,0 +1,16 @@
+.jshintrc
+target
+activemq
+.classpath
+.project
+.settings
+*.iml
+.idea
+.mymetadata
+.metadata
+RemoteSystemsTempFiles
+zkconf.properties/cmt
+*.log
+PLTLOG
+.recommenders
+.DS_Store
